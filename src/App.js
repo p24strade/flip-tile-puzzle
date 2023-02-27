@@ -1,10 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import PuzzleBaord from './components/PuzzleBoard';
 
 function App() {
   return (
     <div className="App">
       <h2>Flip-Tile-Puzzle</h2>
+      <PuzzleBaord/>
     </div>
   );
 }
